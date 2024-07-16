@@ -1,14 +1,18 @@
 <h1 align="center">Verão com ciência 2024</h1>
-___
 
 # Rasa Chatbot
-To see more detailed and accurate information, use the official [Rasa Open Source](https://rasa.com/docs/rasa/) documentation.
+Use the official [Rasa Open Source](https://rasa.com/docs/rasa/) documentation to see more detailed and accurate information.
 ## Installation
-To install on Windows, Linux or Mac, use the information available in [Rasa installation](https://rasa.com/docs/rasa/installation/environment-set-up/).
+To install on Windows, Linux, or Mac, use the information available in [Rasa installation](https://rasa.com/docs/rasa/installation/environment-set-up/).
 ## Useful commands
-Activate the virtual environment and then be able to run Rasa:
-```bash 
-source ./venv/bin/activate
+Create a new model:
+```bash
+rasa init
+```
+
+Train a new model based on the last changes made:
+```bash
+rasa train
 ```
 
 Run the chatbot using the command terminal:
@@ -29,11 +33,6 @@ rasa run actions
 Validate the modifications made to the code and check for any errors before training occurs:
 ```bash
 rasa data validate
-```
-
-Train a new model based on the last changes made:
-```bash
-rasa train
 ```
 
 Run the chatbot in debug mode and check each action it performs:
