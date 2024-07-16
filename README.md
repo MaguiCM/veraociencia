@@ -1,15 +1,30 @@
 <h1 align="center">Verão com ciência 2024</h1>
 
 # Rasa Chatbot
-Use the official [Rasa Open Source](https://rasa.com/docs/rasa/) documentation to see more detailed and accurate information.
+Use the official [Rasa Open Source](https://rasa.com/docs/rasa/) documentation for more detailed and accurate information.
 ## Installation
 To install on Windows, Linux, or Mac, use the information available in [Rasa installation](https://rasa.com/docs/rasa/installation/environment-set-up/).
-## Useful commands
+
+To simplify, we used the Conda and installed it in a virtual environment, so first open Anaconda, go to Environments, and open "veraociencia" in a terminal.
+
+## First steps
+Create a new folder called rasa:
+```bash
+mkdir rasa
+```
+Enter in the following folder:
+```bash
+cd rasa
+```
 Create a new model:
 ```bash
 rasa init
 ```
+Try to have a conversation with your chatbot.
 
+After opening the VS Code, open the new folder.
+
+## Useful commands
 Train a new model based on the last changes made:
 ```bash
 rasa train
