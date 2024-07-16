@@ -26,8 +26,12 @@ After opening the VS Code, open the new folder.
 
 <img src="./Captura de Tela (715).png" width = "600">
 
-Then, you will be able to see and edit the folder's content.
+Then, you can see and edit the folder's content.
 <img src="./exemplo.jpeg" width = "600">
+
+In the documents domain, stories, and NLU, you can create your own chatbot.
+
+You can also integrate with your webpage, Facebook, and Telegram and create your functionalities in the actions using Python.
 ___
 ## Useful commands
 Train a new model based on the last changes made:
