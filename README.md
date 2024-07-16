@@ -26,6 +26,9 @@ After opening the VS Code, open the new folder.
 
 <img src="./Captura de Tela (715).png" width = "600">
 
+Then, you will be able to see and edit the folder's content.
+<img src="./exemplo.jpeg" width = "600">
+___
 ## Useful commands
 Train a new model based on the last changes made:
 ```bash
