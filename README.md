@@ -24,7 +24,7 @@ Try to have a conversation with your chatbot.
 
 After opening the VS Code, open the new folder.
 
-<img src="./face_recognition_pedro_lucas/Demo/Apenas1foto.gif" width = "600">
+<img src="./captura de tela (705)" width = "600">
 
 ## Useful commands
 Train a new model based on the last changes made:
